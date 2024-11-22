@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  header {
+    background: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Resume Styles */
+  .resume {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+  }
+  
+  .resume h3 {
+    color: #4CAF50;
+  }
+  
+  /* Custom Lists */
+  ol, ul {
+    margin: 15px;
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* YouTube Video */
+  iframe {
+    display: block;
+    margin: 20px auto;
+    border: none;
+  }
+  
+  /* Tableau Embed */
+  .tableau-embed {
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+ /* Footer */
+footer {
+    text-align: center;
+    padding: 2rem 1rem; /* More padding for spacing */
+    background: #2C3E50; /* Modern dark blue background */
+    color: #ECF0F1; /* Light grey font color for readability */
+    font-size: 1rem; /* Standard font size */
+    font-family: 'Arial', sans-serif; /* Clean sans-serif font */
+    border-top: 4px solid #ECF0F1; /* Optional: a thin border for added detail */
+  }
+  
+  /* Footer link styling */
+  footer a {
+    color: #ECF0F1; /* Light grey links */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold; /* Makes the link stand out */
+  }
+  
+  footer a:hover {
+    color: #3498DB; /* A bright blue on hover to make the link interactive */
+    text-decoration: underline; /* Adds underline on hover */
+  }
+  
