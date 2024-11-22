@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>From-Scratch Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Nice to meet you!!</h1>
+    <nav>
+      <a href="#section1">Resume</a>
+      <a href="#nested-list">About met</a>
+      <a href="#youtube-video">Bitcoin </a>
+      <a href="#tableau">Tableau Graph</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Resume Section -->
+    <section id="section1">
+      <h2>Resume</h2>
+      <p>Here is my incredible, insanely unimpressive resume:</p>
+      <div class="resume">
+        <h3>Education</h3>
+        <p><strong>Brigham Young University</strong> - BGS, 2024</p>
+        <h3>Work Experience</h3>
+        <ul>
+          <li>Aptive Enviromental  (Oct 2019 - Oct 2020)
+            <ul>
+              <li>Top 50 Rookie in the company producing over 200,000 in Service Revenue </li>
+              <li>Finished Top Rookie in the office </li>
+            </ul>
+          </li>
+          <li>Moxie Pest Control  (Oct 2020 - Present)
+            <ul>
+              <li>Loves to sell Pest Control </li>
+              <li>Recruits and manages teams </li>
+            </ul>
+          </li>
+        </ul>
+        <h3>Skills</h3>
+        <ul>
+          <li>Selling</li>
+          <li>Excel</li>
+          <li>Powerpoint</li>
+          <li>HTML</li>
+          <li>Word</li>
+        </ul>
+        <h3>Awards</h3>
+        <p>Best Looking Sales Rep, 2024</p>
+      </div>
+    </section>
+
+    <!-- About ME -->
+    <section id="nested-list">
+      <h2>About Me</h2>
+      <ol>
+        <li>Hobbies 
+          <ul>
+            <li>Traveling</li>
+            <li>Golfing</li>
+          </ul>
+        </li>
+        <li>Places Visited
+          <ul>
+            <li>New York</li>
+            <li>Miami</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Embedded YouTube Video -->
+    <section id="youtube-video">
+      <h2>Bitcoin To The Moon</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XcHhnSo6v5g?si=HUhY7df4EXLFwSWP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>" 
+       
+    </section>
+
+    <!-- Tableau Graph -->
+    <section id="tableau">
+      <h2>Interactive Tableau Graph</h2>
+      <div class="tableau-embed">
+    <script type='module' src='https://10ay.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://10ay.online.tableau.com/t/andrewlmoffat-25b246be34/views/Sheet1/Sheet1' width='1657' height='912' hide-tabs toolbar='bottom' ></tableau-viz>
+      </div>
+    </section>
+
+    <!-- Navigation Back to Professional Page -->
+    <footer>
+      <p>
+        <a href="index.html">Back to Professional Pages</a>
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
